@@ -43,7 +43,6 @@ class GameObject:
         self.gravity=0.4
         self.fruit_type=fruit_type
         self.is_bomb=is_bomb
-        self.sliced=False
 
     #Drawing the object on screen
     def draw(self):    
